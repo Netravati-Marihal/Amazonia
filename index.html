@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A responsive Amazon-inspired static ecommerce storefront built with HTML, CSS, and JavaScript."
+    />
+    <title>Amazonia | Static Storefront</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topbar">
+        <a class="brand" href="#" aria-label="Amazonia home">
+          <span class="brand-mark">a</span>
+          <span>Amazonia</span>
+        </a>
+
+        <button class="location" type="button" aria-label="Delivering to Bengaluru">
+          <span class="pin" aria-hidden="true"></span>
+          <span>
+            <small>Deliver to</small>
+            Bengaluru 560001
+          </span>
+        </button>
+
+        <form class="search" id="searchForm">
+          <select aria-label="Search category" id="categorySelect">
+            <option value="All">All</option>
+          </select>
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search Amazonia"
+            autocomplete="off"
+            aria-label="Search products"
+          />
+          <button type="submit" aria-label="Search">
+            <span class="search-icon" aria-hidden="true"></span>
+          </button>
+        </form>
+
+        <nav class="account-nav" aria-label="Account actions">
+          <a href="#signin">
+            <small>Hello, sign in</small>
+            Account
+          </a>
+          <a href="#orders">
+            <small>Returns</small>
+            Orders
+          </a>
+          <button class="cart-button" id="cartButton" type="button" aria-label="View cart">
+            <span class="cart-icon" aria-hidden="true"></span>
+            <span class="cart-count" id="cartCount">0</span>
+            Cart
+          </button>
+        </nav>
+      </div>
+
+      <div class="category-bar">
+        <button class="menu-button" id="menuButton" type="button" aria-label="Toggle categories">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="category-links" id="categoryLinks" aria-label="Shopping categories"></nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Featured deals">
+        <div class="hero-track" id="heroTrack"></div>
+        <div class="hero-controls">
+          <button type="button" id="prevHero" aria-label="Previous featured deal">
+            <span class="arrow left" aria-hidden="true"></span>
+          </button>
+          <button type="button" id="nextHero" aria-label="Next featured deal">
+            <span class="arrow right" aria-hidden="true"></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="quick-grid" aria-label="Shopping shortcuts">
+        <article class="quick-panel">
+          <h2>Pick up where you left off</h2>
+          <div class="mini-grid" id="miniGrid"></div>
+        </article>
+        <article class="quick-panel">
+          <h2>Deals under $100</h2>
+          <div class="deal-strip" id="dealStrip"></div>
+        </article>
+        <article class="quick-panel signin-panel" id="signin">
+          <h2>Sign in for your best experience</h2>
+          <button type="button">Sign in securely</button>
+          <p>Track packages, reorder essentials, and save your favorite finds.</p>
+        </article>
+      </section>
+
+      <section class="toolbar" aria-label="Product filters">
+        <div>
+          <p class="eyebrow">Today's picks</p>
+          <h2>Recommended for you</h2>
+        </div>
+        <div class="sort-tools">
+          <label for="sortSelect">Sort</label>
+          <select id="sortSelect">
+            <option value="featured">Featured</option>
+            <option value="price-low">Price: low to high</option>
+            <option value="price-high">Price: high to low</option>
+            <option value="rating">Highest rated</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="product-grid" id="productGrid" aria-live="polite"></section>
+    </main>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+      <div class="cart-header">
+        <h2>Cart</h2>
+        <button type="button" id="closeCart" aria-label="Close cart">
+          <span class="close-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-summary">
+        <div>
+          <span>Subtotal</span>
+          <strong id="cartTotal">$0.00</strong>
+        </div>
+        <button type="button">Proceed to checkout</button>
+      </div>
+    </aside>
+    <div class="scrim" id="scrim" hidden></div>
+
+    <footer class="site-footer">
+      <button type="button" id="backToTop">Back to top</button>
+      <div class="footer-grid">
+        <div>
+          <h2>Get to know us</h2>
+          <a href="#">About Amazonia</a>
+          <a href="#">Careers</a>
+          <a href="#">Press releases</a>
+        </div>
+        <div>
+          <h2>Make money with us</h2>
+          <a href="#">Sell products</a>
+          <a href="#">Advertise</a>
+          <a href="#">Fulfillment services</a>
+        </div>
+        <div>
+          <h2>Let us help you</h2>
+          <a href="#">Your account</a>
+          <a href="#">Returns centre</a>
+          <a href="#">Help</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
