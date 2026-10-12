@@ -1,0 +1,143 @@
+{
+  "categories": [
+    "Fresh",
+    "Mobiles",
+    "Fashion",
+    "Electronics",
+    "Home",
+    "Beauty",
+    "Appliances",
+    "Toys",
+    "Books",
+    "Prime"
+  ],
+  "heroSlides": [
+    {
+      "id": 1,
+      "title": "Smarter shopping for every room",
+      "subtitle": "Curated home, tech, and daily essentials with faster discovery.",
+      "cta": "Shop the edit",
+      "image": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": 2,
+      "title": "Deals that feel personal",
+      "subtitle": "Limited-time drops across gadgets, wellness, and style.",
+      "cta": "Explore deals",
+      "image": "https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": 3,
+      "title": "Upgrade your everyday carry",
+      "subtitle": "Modern work gear, audio, bags, and accessories in one place.",
+      "cta": "Browse tech",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80"
+    }
+  ],
+  "products": [
+    {
+      "id": "echo-studio-2026",
+      "title": "Echo Studio Max Smart Speaker",
+      "category": "Electronics",
+      "price": 189.99,
+      "originalPrice": 249.99,
+      "rating": 4.8,
+      "reviews": 18492,
+      "badge": "Best Seller",
+      "stock": "In stock",
+      "image": "https://images.unsplash.com/photo-1589003077984-894e133dabab?auto=format&fit=crop&w=900&q=80",
+      "description": "Spatial audio, adaptive room tuning, and crisp voice controls for a premium smart-home sound experience."
+    },
+    {
+      "id": "kindle-paperwhite-color",
+      "title": "Kindle Paperwhite Color Edition",
+      "category": "Books",
+      "price": 159.99,
+      "originalPrice": 199.99,
+      "rating": 4.7,
+      "reviews": 9351,
+      "badge": "New",
+      "stock": "In stock",
+      "image": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?auto=format&fit=crop&w=900&q=80",
+      "description": "A glare-free reading display with color highlights, weeks of battery life, and waterproof portability."
+    },
+    {
+      "id": "aero-office-chair",
+      "title": "AeroFlex Ergonomic Office Chair",
+      "category": "Home",
+      "price": 274.5,
+      "originalPrice": 349.99,
+      "rating": 4.6,
+      "reviews": 5022,
+      "badge": "Deal",
+      "stock": "Only 7 left",
+      "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=900&q=80",
+      "description": "Breathable mesh, adjustable lumbar support, and a balanced recline made for long workdays."
+    },
+    {
+      "id": "luna-pro-headphones",
+      "title": "Luna Pro Noise Cancelling Headphones",
+      "category": "Electronics",
+      "price": 129.99,
+      "originalPrice": 179.99,
+      "rating": 4.5,
+      "reviews": 12680,
+      "badge": "Limited Deal",
+      "stock": "In stock",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80",
+      "description": "Immersive active noise cancellation, 40-hour battery life, and soft memory-foam earcups."
+    },
+    {
+      "id": "nest-cookware-set",
+      "title": "Nest Ceramic Cookware Set",
+      "category": "Home",
+      "price": 96.0,
+      "originalPrice": 139.99,
+      "rating": 4.4,
+      "reviews": 2981,
+      "badge": "Today Only",
+      "stock": "In stock",
+      "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=80",
+      "description": "Non-stick ceramic pans, recycled aluminum build, and stackable storage for compact kitchens."
+    },
+    {
+      "id": "pulse-smart-watch",
+      "title": "Pulse X2 Health Smartwatch",
+      "category": "Mobiles",
+      "price": 219.0,
+      "originalPrice": 279.0,
+      "rating": 4.6,
+      "reviews": 7750,
+      "badge": "Prime",
+      "stock": "In stock",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+      "description": "Advanced sleep insights, training modes, offline music, and a bright always-on display."
+    },
+    {
+      "id": "urban-weekender-bag",
+      "title": "Urban Weekender Travel Bag",
+      "category": "Fashion",
+      "price": 74.99,
+      "originalPrice": 109.99,
+      "rating": 4.3,
+      "reviews": 4314,
+      "badge": "Choice",
+      "stock": "In stock",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=80",
+      "description": "Water-resistant recycled fabric, laptop sleeve, and smart compartments for short trips."
+    },
+    {
+      "id": "glow-beauty-kit",
+      "title": "GlowLab Daily Skincare Kit",
+      "category": "Beauty",
+      "price": 44.5,
+      "originalPrice": 68.0,
+      "rating": 4.7,
+      "reviews": 2188,
+      "badge": "Trending",
+      "stock": "In stock",
+      "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=900&q=80",
+      "description": "A gentle cleanser, serum, moisturizer, and SPF routine designed for everyday radiance."
+    }
+  ]
+}
